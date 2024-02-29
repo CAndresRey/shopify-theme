@@ -3,11 +3,11 @@
     "hero": {
       "type": "hero-simple",
       "custom_css": [
-        "h1 {font-family: Gilroy, sans-serif; font-weight:semi-bold}"
+        "h1 {font-family: Gilroy, sans-serif; font-weight: semi-bold;}"
       ],
       "settings": {
         "hero_title": "Des moments délicieux <br>Thés et infusions bio",
-        "hero_description": "<p>esto es una prueba de como modificar el template<\/p>",
+        "hero_description": "<p>Nous sommes des épicuriens exigeants! des amoureux<br\/>du goût, des couleurs, des plantes qui font du bien. <\/p>",
         "title_CTA": "CTA",
         "link_CTA": "",
         "background": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
