@@ -1,13 +1,53 @@
 {
   "sections": {
-    "hero": {
-      "type": "hero-simple",
+    "hero_slider_r7hVmH": {
+      "type": "hero-slider",
+      "blocks": {
+        "content_xxCKTz": {
+          "type": "content",
+          "settings": {
+            "heading": "Des moments délicieux <br>Thés et infusions bio",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Voir tous les produits",
+            "cta_link": "#",
+            "image_desktop": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
+          }
+        },
+        "content_FGCYF6": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_a6cEEn": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_Uytgbn": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "content_xxCKTz",
+        "content_FGCYF6",
+        "content_a6cEEn",
+        "content_Uytgbn"
+      ],
       "settings": {
-        "hero_title": "Des moments délicieux <br>Thés et infusions bio",
-        "hero_description": "<p>Nous sommes des épicuriens exigeants! des amoureux<br\/>du goût, des couleurs, des plantes qui font du bien. <\/p>",
-        "title_CTA": "Voir tous les produits",
-        "link_CTA": "\/web",
-        "background": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
       }
     },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
@@ -365,7 +405,7 @@
     }
   },
   "order": [
-    "hero",
+    "hero_slider_r7hVmH",
     "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff",
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e",
