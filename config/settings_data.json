@@ -1,5 +1,7 @@
 {
   "current": {
+    "colors_btn_bg_1": "#2b4162",
+    "variants_color": "",
     "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#121212",
