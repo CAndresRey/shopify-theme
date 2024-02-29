@@ -7,7 +7,7 @@
           "type": "content",
           "settings": {
             "heading": "Des moments délicieux <br>Thés et infusions bio",
-            "description": "Nous sommes des épicuriens exigeants! des amoureux\ndu goût, des couleurs, des plantes qui font du bien.",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux <br>\ndu goût, des couleurs, des plantes qui font du bien.",
             "cta_text": "Voir tous les produits",
             "cta_link": "#",
             "image_desktop": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
