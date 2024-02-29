@@ -2,8 +2,11 @@
   "sections": {
     "hero": {
       "type": "hero-simple",
+      "custom_css": [
+        "h1 {font-family: Gilroy, sans-serif; font-weight:semi-bold}"
+      ],
       "settings": {
-        "hero_title": "Survivor pack",
+        "hero_title": "Des moments délicieux <br>Thés et infusions bio",
         "hero_description": "<p>esto es una prueba de como modificar el template<\/p>",
         "title_CTA": "CTA",
         "link_CTA": "",
