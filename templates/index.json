@@ -6,7 +6,8 @@
         "hero_title": "Survivor pack",
         "hero_description": "<p>esto es una prueba de como modificar el template<\/p>",
         "title_CTA": "CTA",
-        "link_CTA": ""
+        "link_CTA": "",
+        "background": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
       }
     },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
