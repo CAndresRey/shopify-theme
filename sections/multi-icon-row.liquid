@@ -13,7 +13,7 @@
   assign slider_mobile = section.settings.slider_mobile
 %}
 {% if section.settings.heading != blank %}
-  <h2>
+  <h2 class='head__title'>
     {{ section.settings.heading }}
   </h2>
 {% endif %}
@@ -28,17 +28,15 @@
       <div
         class="row-icons__element {% if position_icons == 'left' %}position__left{% else %}position__top{% endif %}"
       >
-          {% assign url = block.settings.row_icon_image
-            | append: '.svg'
-            | file_url
-          %}
-          {% render "render-image"
-            img_src: url,
-            alt: block.settings.row_icon_image,
-            width: "60",
-            height: "60"
-          %}
-
+        <picture>
+          {% assign img_src = block.settings.row_icon_image | image_url %}
+          <img
+            src="{{ img_src }}"
+            height="60"
+            width="60"
+          />
+        </picture>
+          
         {% if block.settings.heading != blank or block.settings.row_icon_description != blank %}
           <div class="row-icons__description">
             {% if block.settings.heading != blank %}
@@ -64,7 +62,7 @@
 {% schema %}
   {
     "name": "Row icons",
-    "class": "row-icons wrapper",
+    "class": "row-icons wrapper wrapper--s",
     "tag": "div",
     "settings": [
       {
@@ -105,11 +103,10 @@
             "default": "<p>Lorem ipsum letto</p>"
           },
           {
-            "type": "text",
+            "type": "image_picker",
             "id": "row_icon_image",
             "info": "size: 80x80 px. Add file name (.svg)",
-            "label": "Image",
-            "default": "icon"
+            "label": "Image"
           }
         ]
       }

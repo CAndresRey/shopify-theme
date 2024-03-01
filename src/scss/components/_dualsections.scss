@@ -1,7 +1,13 @@
+.head__title,
+.head__subtitle {
+  text-align: center;
+  margin-bottom: 12px;
+}
 .container__dual-section {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+
 
   .container__media,
   .container__description {
@@ -75,6 +81,7 @@
       }
 
       & > a {
+        padding: 20px 0;
         display: block;
         text-align: center;
         text-decoration: none;

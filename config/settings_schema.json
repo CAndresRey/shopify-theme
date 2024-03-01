@@ -4,8 +4,8 @@
     "theme_name": "Gradibase",
     "theme_version": "0.0.1",
     "theme_author": "Gradiweb",
-    "theme_documentation_url": "https://github.com/gradiweb/dawn",
-    "theme_support_url": "https://github.com/gradiweb/dawn"
+    "theme_documentation_url": "https:\/\/github.com\/gradiweb\/dawn",
+    "theme_support_url": "https:\/\/github.com\/gradiweb\/dawn"
   },
   {
     "name": "Google tag manager",
@@ -62,13 +62,13 @@
       {
         "type": "color",
         "id": "colors_txt",
-        "default": "#000000",
+        "default": "#2b4162",
         "label": "Text body"
       },
       {
         "type": "color",
         "id": "colors_title",
-        "default": "#000000",
+        "default": "#2b4162",
         "label": "Titles"
       },
       {
@@ -88,19 +88,19 @@
       {
         "type": "color",
         "id": "colors_btn_color_1",
-        "default": "#000000",
+        "default": "#FFFFFF",
         "label": "Color 1"
       },
       {
         "type": "color",
         "id": "colors_btn_bg_1",
-        "default": "#FFFFFF",
+        "default": "#2B4162",
         "label": "Background 1"
       },
       {
         "type": "color",
         "id": "colors_btn_border_1",
-        "default": "#000000",
+        "default": "transparent",
         "label": "Border 1"
       },
       {
@@ -178,7 +178,7 @@
         "type": "textarea",
         "label": "Colours of the variants",
         "info": "Enter the colour information as in the example. Ex: Black:#000",
-        "default": "Black:#000;<br />Green:#14D66F;<br />Gray:#C4C4C4;",
+        "default": "Black:#000;<br \/>Green:#14D66F;<br \/>Gray:#C4C4C4;",
         "placeholder": "Colour:#hex<Linefeed>\n\nExample:\nWhite:#fff\nBlack:#000\n..."
       },
       {

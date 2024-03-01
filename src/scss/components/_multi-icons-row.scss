@@ -1,7 +1,9 @@
 @use "../abstracts/variables";
 
 $margin-icon: 30px;
-
+.head__title {
+  text-align: center;
+}
 .row-icons {
   &__elements {
     flex-wrap: nowrap;
@@ -21,7 +23,6 @@ $margin-icon: 30px;
         flex-wrap: nowrap;
         margin-left: -1rem;
         margin-right: -1rem;
-
 
         .row-icons__element {
           flex-shrink: 0;

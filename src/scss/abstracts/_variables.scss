@@ -1,19 +1,20 @@
-$max-width--wrapper: 1440px;
+$max-width--wrapper: 1320px;
+$min-width--wrapper: 375px;
 
 $paddings-side: 5rem;
 $paddings-side--movil: 1rem;
 
-$margin-section: 50px;
-$margin-section--movil: 30px;
+$margin-section: 60px;
+$margin-section--movil: 40px;
 
 /* ====== Font ====== */
-$font-family--general: 'system', sans-serif;
+$font-family--general: 'Roboto', sans-serif;
 $font-size--general: 16px;
 
-$font-family--title: 'system', sans-serif;
-$font-size--h1: 30px;
-$font-size--h2: 25px;
-$font-size--h3: 22px;
+$font-family--title: 'Gilroy', sans-serif;
+$font-size--h1: 54px;
+$font-size--h2: 42px;
+$font-size--h3: 36px;
 $font-size--hn: 18px;
 
 /* ====== Colors ====== */
