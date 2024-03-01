@@ -7,7 +7,7 @@
           "type": "content",
           "settings": {
             "heading": "Des moments délicieux <br>Thés et infusions bio",
-            "description": "Nous sommes des épicuriens exigeants! des amoureux <br>\ndu goût, des couleurs, des plantes qui font du bien.",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux <br> \ndu goût, des couleurs, des plantes qui font du bien. ",
             "cta_text": "Voir tous les produits",
             "cta_link": "#",
             "image_desktop": "shopify:\/\/shop_images\/Aspect_Ratio_Spacer.jpg"
@@ -21,31 +21,11 @@
             "cta_text": "Button text",
             "cta_link": "#"
           }
-        },
-        "content_a6cEEn": {
-          "type": "content",
-          "settings": {
-            "heading": "Heading Title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "cta_text": "Button text",
-            "cta_link": "#"
-          }
-        },
-        "content_Uytgbn": {
-          "type": "content",
-          "settings": {
-            "heading": "Heading Title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "cta_text": "Button text",
-            "cta_link": "#"
-          }
         }
       },
       "block_order": [
         "content_xxCKTz",
-        "content_FGCYF6",
-        "content_a6cEEn",
-        "content_Uytgbn"
+        "content_FGCYF6"
       ],
       "settings": {
       }
@@ -56,8 +36,8 @@
         "template--15978344546484__c4e8f06a-2f8e-4481-a189-9da4765b273f-16818493522cff988a-0": {
           "type": "icon",
           "settings": {
-            "heading": "Fast integration",
-            "row_icon_description": "",
+            "heading": "Cultivé naturellement",
+            "row_icon_description": "<p>Rigorously tried, tested and customer approved<\/p>",
             "row_icon_image": "integration"
           }
         },
