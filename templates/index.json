@@ -21,11 +21,31 @@
             "cta_text": "Button text",
             "cta_link": "#"
           }
+        },
+        "content_a6cEEn": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_Uytgbn": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
         }
       },
       "block_order": [
         "content_xxCKTz",
-        "content_FGCYF6"
+        "content_FGCYF6",
+        "content_a6cEEn",
+        "content_Uytgbn"
       ],
       "settings": {
       }
@@ -38,39 +58,39 @@
           "settings": {
             "heading": "Cultivé naturellement",
             "row_icon_description": "<p>Rigorously tried, tested and customer approved.<\/p>",
-            "row_icon_image": ""
+            "row_icon_image": "shopify:\/\/shop_images\/Frame_9545_1.svg"
           }
         },
         "template--15978344546484__c4e8f06a-2f8e-4481-a189-9da4765b273f-16818493522cff988a-1": {
           "type": "icon",
           "settings": {
-            "heading": "Friendly",
-            "row_icon_description": "",
-            "row_icon_image": "friendly"
+            "heading": "Mélangeur à main",
+            "row_icon_description": "<p>Rigorously tried, tested and customer approved.<\/p>",
+            "row_icon_image": "shopify:\/\/shop_images\/Frame_9545_2.svg"
           }
         },
         "template--15978344546484__c4e8f06a-2f8e-4481-a189-9da4765b273f-16818493522cff988a-2": {
           "type": "icon",
           "settings": {
-            "heading": "Time reduction",
-            "row_icon_description": "",
-            "row_icon_image": "time"
+            "heading": "Différentes saveurs",
+            "row_icon_description": "<p>Rigorously tried, tested and customer approved.<\/p>",
+            "row_icon_image": "shopify:\/\/shop_images\/Frame_9545_3.svg"
           }
         },
         "template--15978344546484__c4e8f06a-2f8e-4481-a189-9da4765b273f-16818493522cff988a-3": {
           "type": "icon",
           "settings": {
-            "heading": "productivity",
-            "row_icon_description": "",
-            "row_icon_image": "producty"
+            "heading": "Made in France",
+            "row_icon_description": "<p>Rigorously tried, tested and customer approved.<\/p>",
+            "row_icon_image": "shopify:\/\/shop_images\/Frame_9545_4.svg"
           }
         },
         "bb9d738c-6b54-4e34-86ff-3492ead1ee58": {
           "type": "icon",
           "settings": {
-            "heading": "Scalability",
-            "row_icon_description": "",
-            "row_icon_image": "scaling"
+            "heading": "Différents packaging",
+            "row_icon_description": "<p>Rigorously tried, tested and customer approved.<\/p>",
+            "row_icon_image": "shopify:\/\/shop_images\/Frame_9545_5.svg"
           }
         }
       },
@@ -90,19 +110,24 @@
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff": {
       "type": "dual-section",
       "settings": {
-        "section_margin": false,
-        "dual_section_title": "Dual section",
-        "dual_section_title_size": "h2",
+        "heading": "Liberté de moduler son choix!",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur 📦✨ adipiscing elit. Vivamus lacinia arcu eu sodales elementum! 🤗",
+        "section_margin": true,
+        "dual_section_title": "Vec les doypacks+ une théière\/passoire",
+        "dual_section_title_size": "h4",
         "dual_section_titleCTA": "Go to checkout",
         "dual_section_linkCTA": "",
         "position_image": "left",
-        "dual_section_subtitle": "<p>lorem ipsum<\/p>",
-        "dual_section_description": "<p><strong>Lorem ipsum dolor sit amet <\/strong><em>consectetur adipiscing<\/em> <a href=\"\/collections\/all\" title=\"All\">elit<\/a><\/p>"
+        "image_brackground": "shopify:\/\/shop_images\/2.svg",
+        "dual_section_subtitle": "",
+        "dual_section_description": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.<\/p>"
       }
     },
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e": {
       "type": "dual-section",
       "settings": {
+        "heading": "Deafult heading",
+        "subheading": "Deafult subheading",
         "section_margin": true,
         "dual_section_title": "Dual section",
         "dual_section_title_size": "h2",
@@ -333,40 +358,35 @@
           "type": "icon",
           "settings": {
             "heading": "Fast integration",
-            "row_icon_description": "",
-            "row_icon_image": "integration"
+            "row_icon_description": ""
           }
         },
         "icon-2": {
           "type": "icon",
           "settings": {
             "heading": "Friendly",
-            "row_icon_description": "",
-            "row_icon_image": "friendly"
+            "row_icon_description": ""
           }
         },
         "icon-3": {
           "type": "icon",
           "settings": {
             "heading": "Time reduction",
-            "row_icon_description": "",
-            "row_icon_image": "time"
+            "row_icon_description": ""
           }
         },
         "icon-4": {
           "type": "icon",
           "settings": {
             "heading": "productivity",
-            "row_icon_description": "",
-            "row_icon_image": "producty"
+            "row_icon_description": ""
           }
         },
         "icon-5": {
           "type": "icon",
           "settings": {
             "heading": "Scalability",
-            "row_icon_description": "",
-            "row_icon_image": "scaling"
+            "row_icon_description": ""
           }
         }
       },
