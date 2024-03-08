@@ -179,6 +179,31 @@
         "heading": "Heading carousel"
       }
     },
+    "9ff7a25e-e105-49ba-b268-be58e10ab5ff": {
+      "type": "dual-section",
+      "settings": {
+        "heading": "Liberté de moduler son choix!",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur 📦✨ adipiscing elit. Vivamus lacinia arcu eu sodales elementum! 🤗",
+        "section_margin": true,
+        "dual_section_title": "Vec les doypacks+ une théière\/passoire",
+        "dual_section_title_size": "h4",
+        "dual_section_titleCTA": "Go to checkout",
+        "dual_section_linkCTA": "",
+        "position_image": "left",
+        "image_brackground": "shopify:\/\/shop_images\/2.svg",
+        "dual_section_subtitle": "",
+        "dual_section_description": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.<\/p>"
+      }
+    },
+    "hero_simple_gG4WGp": {
+      "type": "hero-simple",
+      "settings": {
+        "hero_title": "Title hero responsive",
+        "hero_description": "<p>Hello <em>hero<\/em> <strong>banner <\/strong><a href=\"\/collections\/all\" title=\"All\"><strong>link<\/strong><\/a><\/p>",
+        "title_CTA": "CTA",
+        "link_CTA": ""
+      }
+    },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
       "type": "multi-icon-row",
       "blocks": {
@@ -234,22 +259,6 @@
         "heading": "Simples, originales et intenses.",
         "slider_mobile": true,
         "section_margin": true
-      }
-    },
-    "9ff7a25e-e105-49ba-b268-be58e10ab5ff": {
-      "type": "dual-section",
-      "settings": {
-        "heading": "Liberté de moduler son choix!",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur 📦✨ adipiscing elit. Vivamus lacinia arcu eu sodales elementum! 🤗",
-        "section_margin": true,
-        "dual_section_title": "Vec les doypacks+ une théière\/passoire",
-        "dual_section_title_size": "h4",
-        "dual_section_titleCTA": "Go to checkout",
-        "dual_section_linkCTA": "",
-        "position_image": "left",
-        "image_brackground": "shopify:\/\/shop_images\/2.svg",
-        "dual_section_subtitle": "",
-        "dual_section_description": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.<\/p>"
       }
     },
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e": {
@@ -538,8 +547,9 @@
     "hero_slider_VcQ3qx",
     "carousel_products_TeCkqJ",
     "carousel_content_9GYpNi",
-    "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff",
+    "hero_simple_gG4WGp",
+    "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e",
     "4ffec980-e8ab-422b-94db-60e50771a7cd",
     "ac6e96ac-edff-44b1-83d6-0aa22e35e335",
