@@ -19,11 +19,19 @@
             "email": "uguigui",
             "tooltip": "huiiuhi"
           }
+        },
+        "radio_VBezJK": {
+          "type": "radio",
+          "settings": {
+            "heading": "wsertyu",
+            "options": "wedfghj"
+          }
         }
       },
       "block_order": [
         "text_eUiJrR",
-        "input_wPgH6W"
+        "input_wPgH6W",
+        "radio_VBezJK"
       ],
       "settings": {
       }
