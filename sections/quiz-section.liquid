@@ -1,0 +1,23 @@
+{% capture snippet_content %}
+  {% for block in section.blocks %}
+    <swiper-slide>
+      {% render 'quiz-slide',
+        index: forloop.index
+        title: block.settings.heading,
+        types: block.settings.types,
+        
+      %}
+    </swiper-slide>
+  {% endfor %}
+{% endcapture %}
+
+{% render 'slider-component',
+    section: section,
+    content: snippet_content,
+    pagination: false,
+    perpage: 1,
+    auto: false,
+    speed: 0,
+    loop: false,
+  %}
+  
