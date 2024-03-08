@@ -1,0 +1,539 @@
+<div class="quiz-container">
+  <div class="quiz-wrapper">
+    <section class="quiz-wrapper quiz-step-start" data-index="1">
+      <div class="container">
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>{{ section.settings.quiz_description }}</p>
+          </h1>
+        </div>
+        <div class="quiz-content">
+          <button class="quiz-btn quiz-next" quiz-next="">{{ section.settings.start_button_text }}</button>
+          <div class="d-flex">
+            {% for block in section.blocks %}
+              <div class="block">
+                <img src="{{ block.image | image_url: width: 70 }}" alt="" width="70" height="70">
+                <div class="block-title">{{ block.title }}</div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-wrapper quiz-step-1" data-index="2">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>{{ section.settings.introduction_text }}</p>
+          </h1>
+        </div>
+        <div class="quiz-content">
+          <div class="input-wrapper">
+            <div class="input__name">
+              <label for="klaviyo_form_customer_name" data--hidden=""></label>
+              <input
+                id="klaviyo_form_customer_name"
+                name="customer_name"
+                data--option="customer_name"
+                type="text"
+                class="name"
+                placeholder="{{ section.settings.first_name_placeholder }}"
+                data-username=""
+                data-email-handle=""
+              >
+            </div>
+            <div class="msg" data-hidden="">
+              <img
+                src="//www.maxbone.com/cdn/shop/files/Ellipse_518_35x.png?v=1614356234"
+                alt=""
+                width="35"
+                height="35"
+              >
+              <span>
+                {{- section.settings.nice_to_meet_you_text -}}
+                <span data-username=""></span>!</span
+              >
+            </div>
+            <div class="input__email" data-hidden="">
+              <label for="k_id_email" data--hidden=""></label>
+              <input
+                id="k_id_email"
+                name="email"
+                data--option="customer_eamil"
+                type="email"
+                placeholder="{{ section.settings.email_placeholder }}"
+              >
+            </div>
+            <div class="info" data-hidden="">
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.912" height="17.912" viewBox="0 0 17.912 17.912">
+                  <path id="np_info_3131400_000000" fill="#231f20" d="M13.956 5A8.956 8.956 0 0 0 5 13.956v8.956h8.956a8.956 8.956 0 1 0 0-17.912zm.844 14.024a.2.2 0 0 1-.058.141.2.2 0 0 1-.141.059h-1.288a.2.2 0 0 1-.2-.2v-6.345a.2.2 0 0 1 .2-.2H14.6a.2.2 0 0 1 .2.2zm0-8.531a.2.2 0 0 1-.2.2h-1.287a.2.2 0 0 1-.2-.2V8.888a.2.2 0 0 1 .2-.2H14.6a.2.2 0 0 1 .2.2z" transform="translate(-5 -5)"></path>
+                </svg>
+              </span>
+              <span class="info-text">
+                {{ section.settings.info_text }}
+              </span>
+            </div>
+          </div>
+          <button class="quiz-btn quiz-next" quiz-next="" data-hidden="">
+            {{ section.settings.continue_button_text }}
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-2" data-index="3">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>{{ section.settings.chat_text }}</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">
+            {{ section.settings.restart_text }}
+          </div>
+        </div>
+        <div class="quiz-content">
+          <div class="input-wrapper">
+            <label for="klaviyo_form_pup_name" data--hidden=""></label>
+            <input
+              id="klaviyo_form_pup_name"
+              name="pup_name"
+              data--option="name"
+              type="text"
+              class="name"
+              placeholder="{{ section.settings.pup_name_placeholder }}"
+              data-name=""
+              data-handle=""
+            >
+          </div>
+          <button class="quiz-btn quiz-next" quiz-next="" data-hidden="">
+            {{ section.settings.continue_button_text }}
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-3" data-index="4">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>Is <name></name>?</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">
+            {{ section.settings.restart_text }}
+          </div>
+        </div>
+        <div class="quiz-content">
+          <div class="d-flex">
+            {% for option in section.settings.gender_options %}
+              <label
+                for="klaviyo_form_dog_gender{{ forloop.index }}"
+                quiz-next=""
+                data-quiz-option="true"
+                data--option="gender"
+                data--option-value="{{ option.value }}"
+              >
+                <div class="image-wrapper">
+                  <img src="{{ option.image | image_url: width: 86 }}" alt="" width="86" height="86">
+                </div>
+                <div class="title">{{ option.title }}</div>
+                <span class="badge">select</span>
+              </label>
+              <input
+                id="klaviyo_form_dog_gender{{ forloop.index }}"
+                name="dog_gender"
+                type="radio"
+                data--hidden=""
+                value="{{ option.value }}"
+              >
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-4" data-index="5">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>
+              What breed is <name></name>? <br>
+              We’ll find something just right for <gender></gender>.
+            </p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">
+            {{ section.settings.restart_text }}
+          </div>
+        </div>
+        <div class="quiz-content">
+          <div class="select-wrapper">
+            <div data-awselect-wrapper="">
+              <label for="klaviyo_form_dog_breed"></label>
+              <select
+                id="klaviyo_form_dog_breed"
+                name="dog_breed"
+                data-awselect=""
+                data-awselect-breed=""
+                data-placeholder="{{ section.settings.select_placeholder }}"
+                data--option="breed"
+                style="display: none;"
+              >
+                {% for option in section.settings.breed_options %}
+                  <option value="{{ option.value }}">{{ option.label }}</option>
+                {% endfor %}
+              </select>
+              <div
+                data-immersive="false"
+                id="awselect_klaviyo_form_dog_breed"
+                data-select="klaviyo_form_dog_breed"
+                class="awselect"
+              >
+                <div style="background:#fff" class="bg"></div>
+                <div style="padding:15px 40px" class="front_face">
+                  <div style="background:#e5e5e5" class="bg"></div>
+                  <div data-inactive-color="#000" style="color:#000" class="content">
+                    <span class="placeholder">{{ section.settings.select_placeholder }}</span>
+                    <i class="icon">
+                      <svg
+                        style="fill:#000"
+                        version="1.1"
+                        id="Chevron_thin_down"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 20 20"
+                        enable-background="new 0 0 20 20"
+                        xml:space="preserve"
+                      >
+                        <path d="M17.418,6.109c0.272-0.268,0.709-0.268,0.979,0c0.27,0.268,0.271,0.701,0,0.969l-7.908,7.83c-0.27,0.268-0.707,0.268-0.979,0l-7.908-7.83c-0.27-0.268-0.27-0.701,0-0.969c0.271-0.268,0.709-0.268,0.979,0L10,13.25L17.418,6.109z"></path>
+                      </svg>
+                    </i>
+                  </div>
+                </div>
+                <div style="padding:15px 0;" class="back_face">
+                  <ul style="color:#000">
+                    {% for option in section.settings.breed_options %}
+                      <li>
+                        <a style="padding: 2px 40px">{{ option.label }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info">
+            <div class="image-wrapper">
+              <img
+                src="//www.maxbone.com/cdn/shop/files/Ellipse_518_35x.png?v=1614356234"
+                alt=""
+                width="35"
+                height="35"
+              >
+            </div>
+            <div class="info_text">If <name></name> is more than two breeds, choose Mixed Breed</div>
+          </div>
+          <button class="quiz-btn quiz-next" quiz-next="" data-hidden="">
+            {{ section.settings.continue_button_text }}
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-5" data-index="6">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>How old is <name></name>?&nbsp;</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">
+            {{ section.settings.restart_text }}
+          </div>
+        </div>
+        <div class="quiz-content">
+          <div class="d-flex" date-select-wrapper="">
+            <div class="select-wrapper select1">
+              <div data-awselect-wrapper="">
+                <label for="klaviyo_form_dog_birth_m" data--hidden=""></label>
+                <select
+                  id="klaviyo_form_dog_birth_m"
+                  name="dog_birth_m"
+                  data-awselect=""
+                  data-awselect-month=""
+                  data-placeholder="{{ section.settings.select_month_placeholder }}"
+                  data--option="birth_m"
+                  style="display: none;"
+                >
+                  {% for month in section.settings.month_options %}
+                    <option value="{{ month }}">{{ month }}</option>
+                  {% endfor %}
+                </select>
+                <div
+                  data-immersive="false"
+                  id="awselect_klaviyo_form_dog_birth_m"
+                  data-select="klaviyo_form_dog_birth_m"
+                  class="awselect"
+                >
+                  <div style="background:#fff" class="bg"></div>
+                  <div style="padding:15px 40px" class="front_face">
+                    <div style="background:#e5e5e5" class="bg"></div>
+                    <div data-inactive-color="#000" style="color:#000" class="content">
+                      <span class="placeholder">{{ section.settings.select_month_placeholder }}</span>
+                      <i class="icon">
+                        <svg
+                          style="fill:#000"
+                          version="1.1"
+                          id="Chevron_thin_down"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 20 20"
+                          enable-background="new 0 0 20 20"
+                          xml:space="preserve"
+                        >
+                          <path d="M17.418,6.109c0.272-0.268,0.709-0.268,0.979,0c0.27,0.268,0.271,0.701,0,0.969l-7.908,7.83c-0.27,0.268-0.707,0.268-0.979,0l-7.908-7.83c-0.27-0.268-0.27-0.701,0-0.969c0.271-0.268,0.709-0.268,0.979,0L10,13.25L17.418,6.109z"></path>
+                        </svg>
+                      </i>
+                    </div>
+                  </div>
+                  <div style="padding:15px 0;" class="back_face">
+                    <ul style="color:#000">
+                      {% for month in section.settings.month_options %}
+                        <li>
+                          <a style="padding: 2px 40px">{{ month }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="select-wrapper select2">
+              <div data-awselect-wrapper="">
+                <label for="klaviyo_form_dog_birth_y" data--hidden=""></label>
+                <select
+                  id="klaviyo_form_dog_birth_y"
+                  name="dog_birth_y"
+                  data-year-selector=""
+                  data-awselect=""
+                  data-awselect-year=""
+                  data-placeholder="{{ section.settings.select_year_placeholder }}"
+                  data--option="birth_y"
+                  style="display: none;"
+                >
+                  {% for year in section.settings.year_options %}
+                    <option value="{{ year }}">{{ year }}</option>
+                  {% endfor %}
+                </select>
+                <div
+                  data-immersive="false"
+                  id="awselect_klaviyo_form_dog_birth_y"
+                  data-select="klaviyo_form_dog_birth_y"
+                  class="awselect"
+                >
+                  <div style="background:#fff" class="bg"></div>
+                  <div style="padding:15px 40px" class="front_face">
+                    <div style="background:#e5e5e5" class="bg"></div>
+                    <div data-inactive-color="#000" style="color:#000" class="content">
+                      <span class="placeholder">{{ section.settings.select_year_placeholder }}</span>
+                      <i class="icon">
+                        <svg
+                          style="fill:#000"
+                          version="1.1"
+                          id="Chevron_thin_down"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 20 20"
+                          enable-background="new 0 0 20 20"
+                          xml:space="preserve"
+                        >
+                          <path d="M17.418,6.109c0.272-0.268,0.709-0.268,0.979,0c0.27,0.268,0.271,0.701,0,0.969l-7.908,7.83c-0.27,0.268-0.707,0.268-0.979,0l-7.908-7.83c-0.27-0.268-0.27-0.701,0-0.969c0.271-0.268,0.709-0.268,0.979,0L10,13.25L17.418,6.109z"></path>
+                        </svg>
+                      </i>
+                    </div>
+                  </div>
+                  <div style="padding:15px 0;" class="back_face">
+                    <ul style="color:#000">
+                      {% for year in section.settings.year_options %}
+                        <li>
+                          <a style="padding: 2px 40px">{{ year }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info">
+            <div class="image-wrapper">
+              <img
+                src="//www.maxbone.com/cdn/shop/files/Ellipse_518_35x.png?v=1614356234"
+                alt=""
+                width="35"
+                height="35"
+              >
+            </div>
+            <div class="info_text">So we can send <name></name> a present! (It’s okay to guess!)</div>
+          </div>
+          <button class="quiz-btn quiz-next" quiz-next="" data-hidden="">
+            {{ section.settings.continue_button_text }}
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-6" data-index="7">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>How much does <name></name> weigh? (lbs)</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">Restart Meal Plan</div>
+        </div>
+        <div class="quiz-content">
+          <div class="input-wrapper">
+            <label for="klaviyo_form_dog_weight" data--hidden=""></label>
+            <input
+              id="klaviyo_form_dog_weight"
+              name="dog_weight"
+              type="text"
+              class="numbersOnly"
+              placeholder="Weight"
+              data-handle=""
+              data--option="weight"
+            >
+          </div>
+          <div class="info">
+            <div class="image-wrapper">
+              <img
+                src="//www.maxbone.com/cdn/shop/files/Ellipse_518_35x.png?v=1614356234"
+                alt=""
+                width="35"
+                height="35"
+              >
+            </div>
+            <div class="info_text">If you’re not sure, just give your best guess!</div>
+          </div>
+          <div class="button-wrapper" data-hidden="">
+            <button class="quiz-btn quiz-next" quiz-next="">Continue</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-7" data-index="8">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>What’s <names></names> lifestyle like? Ok, let’s be honest. Is <gender2></gender2> a couch potato?</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">Restart Meal Plan</div>
+        </div>
+        <div class="quiz-content">
+          <div class="d-flex">
+            <!-- Se recorren las opciones de estilo de vida configurables -->
+            {% for lifestyle in section.settings.lifestyles %}
+              <label
+                for="klaviyo_form_dog_lifestyle{{ forloop.index }}"
+                quiz-next=""
+                data-quiz-option="true"
+                data--option="style"
+                data--option-value="{{ lifestyle.name }}"
+              >
+                <div class="block-content">
+                  <div class="image-wrapper"><img src="{{ lifestyle.image_url }}" alt="" width="100" height="100"></div>
+                  <div class="title">{{ lifestyle.name }}</div>
+                  <span class="badge">select</span>
+                </div>
+                <div class="text"></div>
+              </label>
+              <input
+                id="klaviyo_form_dog_lifestyle{{ forloop.index }}"
+                name="dog_lifestyle"
+                type="radio"
+                data--hidden=""
+                value="{{ lifestyle.name }}"
+              >
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quiz-wrapper quiz-step-8" data-index="9">
+      <div class="container">
+        <div class="quiz-btn quiz-prev" quiz-prev="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50.353" height="32.169" viewBox="0 0 50.353 32.169">
+            <path d="M16.722 30.255l.637.637-1.275 1.277L0 16.085 16.085 0l1.275 1.277L3.449 15.188h46.9v1.795h-46.9z"></path>
+          </svg>
+        </div>
+        <div class="quiz-header">
+          <h1 class="h1 title quiz-title">
+            <p>What does <name></name> currently eat? This will set up the right transitioning plan.</p>
+          </h1>
+          <div class="quiz_reset hidden" data-quiz-reset="">Restart Meal Plan</div>
+        </div>
+        <div class="quiz-content">
+          <div class="d-flex">
+            <!-- Se recorren las opciones de dieta configurables -->
+            {% for diet in section.settings.diets %}
+              <label
+                data-quiz-last="true"
+                for="klaviyo_form_dog_diet{{ forloop.index }}"
+                quiz-next=""
+                data-quiz-option="true"
+                data--option="food"
+                data--option-value="{{ diet.name }}"
+              >
+                {{ diet.name }}
+                <span class="badge">select</span>
+              </label>
+              <input
+                type="radio"
+                id="klaviyo_form_dog_diet{{ forloop.index }}"
+                name="dog_current_diet"
+                data--hidden=""
+                value="{{ diet.name }}"
+              >
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+</div>
