@@ -2,6 +2,19 @@
   "sections": {
     "quiz-section": {
       "type": "quiz-section",
+      "blocks": {
+        "text_eUiJrR": {
+          "type": "text",
+          "settings": {
+            "heading": "Hi! I’m Olivia, A Pup Specialist, And I’m Here To Help You Create A Personalized Meal Plan That’s Perfect For Your Dog.",
+            "text": "m",
+            "cta": "#"
+          }
+        }
+      },
+      "block_order": [
+        "text_eUiJrR"
+      ],
       "settings": {
       }
     }
