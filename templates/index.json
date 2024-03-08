@@ -34,13 +34,23 @@
             "heading": "wsertyu",
             "options": "wedfghj"
           }
+        },
+        "weight_ngfayP": {
+          "type": "weight",
+          "settings": {
+            "heading": "23456",
+            "weight": "34",
+            "image": "shopify:\/\/shop_images\/Frame_9545_2.svg",
+            "text": "qwertyujk"
+          }
         }
       },
       "block_order": [
         "text_eUiJrR",
         "input_wPgH6W",
         "date_GrVeYP",
-        "radio_VBezJK"
+        "radio_VBezJK",
+        "weight_ngfayP"
       ],
       "settings": {
       }
