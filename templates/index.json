@@ -43,6 +43,13 @@
             "image": "shopify:\/\/shop_images\/Frame_9545_2.svg",
             "text": "qwertyujk"
           }
+        },
+        "lifestyle_9mmi6k": {
+          "type": "lifestyle",
+          "settings": {
+            "heading": "qwertyu",
+            "options": "wefghj"
+          }
         }
       },
       "block_order": [
@@ -50,7 +57,8 @@
         "input_wPgH6W",
         "date_GrVeYP",
         "radio_VBezJK",
-        "weight_ngfayP"
+        "weight_ngfayP",
+        "lifestyle_9mmi6k"
       ],
       "settings": {
       }
