@@ -137,6 +137,48 @@
         "heading": "Heading carousel"
       }
     },
+    "carousel_content_9GYpNi": {
+      "type": "carousel-content",
+      "blocks": {
+        "content_DcKt39": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading card",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "content_UQRfi4": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading card",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "content_qmgxQY": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading card",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "content_b7Epfi": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading card",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "block_order": [
+        "content_DcKt39",
+        "content_UQRfi4",
+        "content_qmgxQY",
+        "content_b7Epfi"
+      ],
+      "settings": {
+        "heading": "Heading carousel"
+      }
+    },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
       "type": "multi-icon-row",
       "blocks": {
@@ -495,6 +537,7 @@
     "hero_slider_r7hVmH",
     "hero_slider_VcQ3qx",
     "carousel_products_TeCkqJ",
+    "carousel_content_9GYpNi",
     "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff",
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e",
