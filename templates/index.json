@@ -99,6 +99,44 @@
       "settings": {
       }
     },
+    "carousel_products_TeCkqJ": {
+      "type": "carousel-products",
+      "blocks": {
+        "product_JJeiJt": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_h4dDqB": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_TbNWFV": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_PNYNft": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_JJeiJt",
+        "product_h4dDqB",
+        "product_TbNWFV",
+        "product_PNYNft"
+      ],
+      "settings": {
+        "heading": "Heading carousel"
+      }
+    },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
       "type": "multi-icon-row",
       "blocks": {
@@ -456,6 +494,7 @@
   "order": [
     "hero_slider_r7hVmH",
     "hero_slider_VcQ3qx",
+    "carousel_products_TeCkqJ",
     "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff",
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e",
