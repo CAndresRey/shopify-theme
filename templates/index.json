@@ -10,10 +10,20 @@
             "text": "m",
             "cta": "#"
           }
+        },
+        "input_wPgH6W": {
+          "type": "input",
+          "settings": {
+            "heading": "gcfghfg",
+            "placeholder": "bgu",
+            "email": "uguigui",
+            "tooltip": "huiiuhi"
+          }
         }
       },
       "block_order": [
-        "text_eUiJrR"
+        "text_eUiJrR",
+        "input_wPgH6W"
       ],
       "settings": {
       }
