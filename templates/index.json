@@ -50,6 +50,13 @@
             "heading": "qwertyu",
             "options": "wefghj"
           }
+        },
+        "food_HkHRHe": {
+          "type": "food",
+          "settings": {
+            "heading": "",
+            "options": ""
+          }
         }
       },
       "block_order": [
@@ -58,7 +65,8 @@
         "date_GrVeYP",
         "radio_VBezJK",
         "weight_ngfayP",
-        "lifestyle_9mmi6k"
+        "lifestyle_9mmi6k",
+        "food_HkHRHe"
       ],
       "settings": {
       }
