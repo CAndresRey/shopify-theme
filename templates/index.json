@@ -20,6 +20,14 @@
             "tooltip": "huiiuhi"
           }
         },
+        "date_GrVeYP": {
+          "type": "date",
+          "settings": {
+            "heading": "345678",
+            "month": "2",
+            "year": "2345"
+          }
+        },
         "radio_VBezJK": {
           "type": "radio",
           "settings": {
@@ -31,6 +39,7 @@
       "block_order": [
         "text_eUiJrR",
         "input_wPgH6W",
+        "date_GrVeYP",
         "radio_VBezJK"
       ],
       "settings": {
