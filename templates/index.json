@@ -50,6 +50,55 @@
       "settings": {
       }
     },
+    "hero_slider_VcQ3qx": {
+      "type": "hero-slider",
+      "blocks": {
+        "content_7TwJVa": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux du goût, des couleurs, des plantes qui font du bien.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_fDmNNW": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux du goût, des couleurs, des plantes qui font du bien.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_DU9r3m": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux du goût, des couleurs, des plantes qui font du bien.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        },
+        "content_xTDVLK": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading Title",
+            "description": "Nous sommes des épicuriens exigeants! des amoureux du goût, des couleurs, des plantes qui font du bien.",
+            "cta_text": "Button text",
+            "cta_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "content_7TwJVa",
+        "content_fDmNNW",
+        "content_DU9r3m",
+        "content_xTDVLK"
+      ],
+      "settings": {
+      }
+    },
     "c4e8f06a-2f8e-4481-a189-9da4765b273f": {
       "type": "multi-icon-row",
       "blocks": {
@@ -406,6 +455,7 @@
   },
   "order": [
     "hero_slider_r7hVmH",
+    "hero_slider_VcQ3qx",
     "c4e8f06a-2f8e-4481-a189-9da4765b273f",
     "9ff7a25e-e105-49ba-b268-be58e10ab5ff",
     "3b3d4f4e-1e12-4439-afc1-e247b2e4905e",
