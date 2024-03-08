@@ -1,14 +1,66 @@
 {% capture snippet_content %}
-  {% for block in section.blocks %}
-    <swiper-slide>
-      {% render 'quiz-slide',
-        index: forloop.index
-        title: block.settings.heading,
-        types: block.settings.types,
-        
-      %}
-    </swiper-slide>
-  {% endfor %}
+    {% for block in section.blocks %}
+        <swiper-slide>
+            {% case block.settings.type %}
+                {% when 'text' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        text: block.settings.text,
+                        cta: block.settings.cta
+                    %}
+                {% when 'input' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        placeholder: block.settings.placeholder,
+                        email: block.settings.email,
+                        tooltip: block.settings.tooltip
+                    %}
+                {% when 'radio' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        options: block.settings.options
+                    %}
+                {% when 'dropdown' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        options: block.settings.options,
+                        image: block.settings.image,
+                        text: block.settings.text
+                    %}
+                {% when 'date' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        month: block.settings.month,
+                        year: block.settings.year
+                    %}
+                {% when 'weight' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        weight: block.settings.weight,
+                        image: block.settings.image,
+                        text: block.settings.text
+                    %}
+                {% when 'lifestyle' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        options: block.settings.options
+                    %}
+                {% when 'food' %}
+                    {% render 'quiz-slide',
+                        index: forloop.index,
+                        title: block.settings.heading,
+                        options: block.settings.options
+                    %}
+            {% endcase %}
+        </swiper-slide>
+    {% endfor %}
 {% endcapture %}
 
 {% render 'slider-component',
@@ -20,4 +72,3 @@
   speed: 0
 %}
 
-  
