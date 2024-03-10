@@ -70,9 +70,25 @@
       ],
       "settings": {
       }
+    },
+    "dual_section_n7hAK7": {
+      "type": "dual-section",
+      "settings": {
+        "heading": "Dual section heading",
+        "subheading": "Dual section subheading",
+        "section_margin": true,
+        "dual_section_title": "Deafult title",
+        "dual_section_title_size": "h2",
+        "dual_section_titleCTA": "Go to checkout",
+        "dual_section_linkCTA": "",
+        "position_image": "left",
+        "dual_section_subtitle": "<p>lorem ipsum<\/p>",
+        "dual_section_description": "<p><strong>Lorem ipsum dolor sit amet <\/strong><em>consectetur adipiscing<\/em> <a href=\"\/collections\/all\" title=\"All\">elit<\/a><\/p>"
+      }
     }
   },
   "order": [
-    "quiz-section"
+    "quiz-section",
+    "dual_section_n7hAK7"
   ]
 }
