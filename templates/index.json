@@ -2,93 +2,11 @@
   "sections": {
     "quiz-section": {
       "type": "quiz-section",
-      "blocks": {
-        "text_eUiJrR": {
-          "type": "text",
-          "settings": {
-            "heading": "Hi! I’m Olivia, A Pup Specialist, And I’m Here To Help You Create A Personalized Meal Plan That’s Perfect For Your Dog.",
-            "text": "m",
-            "cta": "shopify:\/\/products\/gift-card"
-          }
-        },
-        "input_wPgH6W": {
-          "type": "input",
-          "settings": {
-            "heading": "gcfghfg",
-            "placeholder": "bgu",
-            "email": "uguigui",
-            "tooltip": "huiiuhi"
-          }
-        },
-        "date_GrVeYP": {
-          "type": "date",
-          "settings": {
-            "heading": "345678",
-            "month": "2",
-            "year": "2345"
-          }
-        },
-        "radio_VBezJK": {
-          "type": "radio",
-          "settings": {
-            "heading": "wsertyu",
-            "options": "wedfghj"
-          }
-        },
-        "weight_ngfayP": {
-          "type": "weight",
-          "settings": {
-            "heading": "23456",
-            "weight": "34",
-            "image": "shopify:\/\/shop_images\/Frame_9545_2.svg",
-            "text": "qwertyujk"
-          }
-        },
-        "lifestyle_9mmi6k": {
-          "type": "lifestyle",
-          "settings": {
-            "heading": "qwertyu",
-            "options": "wefghj"
-          }
-        },
-        "food_HkHRHe": {
-          "type": "food",
-          "settings": {
-            "heading": "qwewqe",
-            "options": "qwewqe"
-          }
-        }
-      },
-      "block_order": [
-        "text_eUiJrR",
-        "input_wPgH6W",
-        "date_GrVeYP",
-        "radio_VBezJK",
-        "weight_ngfayP",
-        "lifestyle_9mmi6k",
-        "food_HkHRHe"
-      ],
       "settings": {
-      }
-    },
-    "dual_section_n7hAK7": {
-      "type": "dual-section",
-      "settings": {
-        "heading": "Dual section heading",
-        "subheading": "Dual section subheading",
-        "section_margin": true,
-        "dual_section_title": "Deafult title",
-        "dual_section_title_size": "h2",
-        "dual_section_titleCTA": "Go to checkout",
-        "dual_section_linkCTA": "",
-        "position_image": "left",
-        "dual_section_subtitle": "<p>lorem ipsum<\/p>",
-        "dual_section_description": "<p><strong>Lorem ipsum dolor sit amet <\/strong><em>consectetur adipiscing<\/em> <a href=\"\/collections\/all\" title=\"All\">elit<\/a><\/p>"
       }
     }
   },
   "order": [
-    "quiz-section",
-    "dual_section_n7hAK7"
+    "quiz-section"
   ]
 }
