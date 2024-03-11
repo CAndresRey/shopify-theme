@@ -3,6 +3,23 @@
     "quiz-section": {
       "type": "quiz-section",
       "settings": {
+        "quiz_description": "Hi! I’m Olivia, A Pup Specialist, And I’m Here To Help You Create A Personalized Meal Plan That’s Perfect For Your Dog.",
+        "start_button_text": "Let's Go",
+        "first_name_placeholder": "What’s your first name?",
+        "nice_to_meet_you_text": "puppy",
+        "email_placeholder": "email",
+        "info_text": "tooltip",
+        "chat_text": "",
+        "pup_name_placeholder": "Pupy name",
+        "select_placeholder": "",
+        "month_options": "January",
+        "year_options": "2022",
+        "gender_options": "male",
+        "breed_options": "labrador_retriever",
+        "lifestyles": "active",
+        "diets": "raw_food",
+        "restart_text": "restart",
+        "continue_button_text": "Continue"
       }
     }
   },
